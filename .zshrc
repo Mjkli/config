@@ -99,3 +99,9 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+#
+
+# Setup fzf keybindings and fuzzy completion
+eval "$(fzf --zsh)"
+
+export PATH="/home/anthony/.local/bin:$PATH"
